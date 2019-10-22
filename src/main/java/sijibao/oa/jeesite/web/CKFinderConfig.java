@@ -1,10 +1,5 @@
 package sijibao.oa.jeesite.web;
 
-import com.ckfinder.connector.configuration.Configuration;
-import com.ckfinder.connector.configuration.Events;
-import com.ckfinder.connector.data.AccessControlLevel;
-import com.ckfinder.connector.utils.AccessControlUtil;
-import com.ckfinder.connector.utils.PathUtils;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.subject.Subject;
 import org.springframework.core.io.DefaultResourceLoader;
@@ -12,6 +7,7 @@ import org.springframework.core.io.Resource;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+import sijibao.oa.jeesite.org.apache.ibatis.session.Configuration;
 import sijibao.oa.jeesite.utils.CustomFileUtils;
 import sijibao.oa.jeesite.utils.Global;
 

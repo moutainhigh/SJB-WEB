@@ -26,6 +26,7 @@ import org.activiti.engine.runtime.ProcessInstance;
 import org.activiti.engine.runtime.ProcessInstanceQuery;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -36,6 +37,8 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.sijibao.oa.common.persistence.Page;
 import com.sijibao.oa.common.service.BaseService;
 import com.sijibao.oa.common.utils.StringUtils;
+import sijibao.oa.jeesite.persistence.Page;
+import sijibao.oa.jeesite.web.BaseService;
 
 /**
  * 流程定义相关Controller
